@@ -5,3 +5,8 @@ struct student
     int roll;
     float marks;
 } s;
+int main()
+{
+    printf("Enter information:\n");
+    printf("Enter name: ");
+    scanf("%s", s.name);
